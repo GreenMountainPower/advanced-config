@@ -1,7 +1,10 @@
-package com.example;
+package config;
 
 import java.util.List;
 import java.util.Map;
+
+import model.JdbcConnections;
+import model.Person;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
