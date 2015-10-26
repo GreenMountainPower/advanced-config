@@ -1,0 +1,38 @@
+config:
+  intVal: 10
+  stringVal: "This is a string value"
+  listVal:
+    - item1
+    - item2
+    - item3
+  mapVal:
+    key1: value1
+    key2: value2
+    key3: value3
+  person:
+    name: "Jay"
+    age: 99
+    interests:
+      - programming
+      - coding
+      - winning
+  ignored: this value is not mapped in app
+
+  jdbcConnections:
+    driverClassName: oracle.jdbc.driver.OracleDriver
+    databases:
+      database1:
+        url: "jdbc:oracle:thin:@//db1.example.com:1521/DB1"
+        username: user1
+        password: password1
+      database2:
+        url: "jdbc:oracle:thin:@//db2.example.com:1521/DB2"
+        username: user2
+        password: password2
+nested:
+  some:
+    value: shallow nested value
+    deeply:
+      nested:
+        property:
+          value: deeply nested value
