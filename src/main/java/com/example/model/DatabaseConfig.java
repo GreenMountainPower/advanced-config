@@ -1,4 +1,4 @@
-package model;
+package com.example.model;
 
 public class DatabaseConfig {
 	private String url;

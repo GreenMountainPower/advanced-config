@@ -1,14 +1,14 @@
-package config;
+package com.example.config;
 
 import java.util.List;
 import java.util.Map;
 
-import model.JdbcConnections;
-import model.Person;
-
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Component;
+
+import com.example.model.JdbcConnections;
+import com.example.model.Person;
 
 @Component
 @EnableConfigurationProperties

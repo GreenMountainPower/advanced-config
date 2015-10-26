@@ -4,16 +4,15 @@ import java.util.Map;
 
 import javax.annotation.PostConstruct;
 
-import model.DatabaseConfig;
-import model.JdbcConnections;
-import model.Person;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import config.AdvancedConfig;
-import config.NestedConfig;
+import com.example.config.AdvancedConfig;
+import com.example.config.NestedConfig;
+import com.example.model.DatabaseConfig;
+import com.example.model.JdbcConnections;
+import com.example.model.Person;
 
 @Service
 public class TestConfig {
